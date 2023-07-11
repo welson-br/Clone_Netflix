@@ -2,6 +2,7 @@
 
 body{
     margin: 0px;
+    font-family: sans-serif;
 }
 #logo{
     width: 150px;
@@ -24,9 +25,49 @@ body{
 select{
     padding: 2px 15px;
     font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
 }
 #btn-enter{
-    padding: 4px 10px;
+    padding: 5px 15px;
     background-color: red;
-    
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+}
+#main{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#title-main{
+    font-size: 62px;
+    font-weight: 900;
+}
+h3{
+    font-weight: 400;
+    margin-top: 40px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+}
+#input{
+    height: 50px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.411);
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#btn-start{
+    margin-left: 10px;
+    font-size: 22px;
+    padding: 2px 20px;
+    font-weight: 600;
+    color:white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
 }
